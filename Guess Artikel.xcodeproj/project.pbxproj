@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03A63F942597B10426A496C4 /* Pods_Guess_Artikel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1892E5C1283F285A65BC5183 /* Pods_Guess_Artikel.framework */; };
+		2545E10B1F3471CB004CA24B /* Guess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2545E10A1F3471CB004CA24B /* Guess.swift */; };
+		2545E10D1F3471CB004CA24B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2545E10C1F3471CB004CA24B /* ViewController.swift */; };
+		2545E1101F3471CB004CA24B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2545E10E1F3471CB004CA24B /* Main.storyboard */; };
+		2545E1121F3471CB004CA24B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2545E1111F3471CB004CA24B /* Assets.xcassets */; };
+		2545E1151F3471CB004CA24B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2545E1131F3471CB004CA24B /* LaunchScreen.storyboard */; };
+		2546CC7E1F3482140049B282 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2546CC7D1F3482140049B282 /* AppDelegate.swift */; };
+		2546CC821F3489910049B282 /* gewicht.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2546CC801F3489910049B282 /* gewicht.txt */; };
+		25868D3D1F49DF83008EA688 /* article.txt in Resources */ = {isa = PBXBuildFile; fileRef = 25868D3C1F49DF83008EA688 /* article.txt */; };
+		25AA76681FB99E1E00469F68 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25AA76671FB99E1E00469F68 /* GoogleService-Info.plist */; };
+		25AA766A1FB99E2600469F68 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25AA76691FB99E2600469F68 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1892E5C1283F285A65BC5183 /* Pods_Guess_Artikel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Guess_Artikel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2545E1071F3471CB004CA24B /* Guess Artikel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guess Artikel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2545E10A1F3471CB004CA24B /* Guess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guess.swift; sourceTree = "<group>"; };
+		2545E10C1F3471CB004CA24B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2545E10F1F3471CB004CA24B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2545E1111F3471CB004CA24B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2545E1141F3471CB004CA24B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2545E1161F3471CB004CA24B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2546CC7D1F3482140049B282 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../r/r/AppDelegate.swift; sourceTree = "<group>"; };
+		2546CC801F3489910049B282 /* gewicht.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gewicht.txt; sourceTree = "<group>"; };
+		25868D3C1F49DF83008EA688 /* article.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = article.txt; sourceTree = "<group>"; };
+		25AA76671FB99E1E00469F68 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		25AA76691FB99E2600469F68 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EBFE65ADAD155AD77D2D0B45 /* Pods-Guess Artikel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Guess Artikel.release.xcconfig"; path = "Pods/Target Support Files/Pods-Guess Artikel/Pods-Guess Artikel.release.xcconfig"; sourceTree = "<group>"; };
+		FF29A9FC628700D620EC4880 /* Pods-Guess Artikel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Guess Artikel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Guess Artikel/Pods-Guess Artikel.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2545E1041F3471CB004CA24B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03A63F942597B10426A496C4 /* Pods_Guess_Artikel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CBDB66833C5E93CE2AA6C9A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF29A9FC628700D620EC4880 /* Pods-Guess Artikel.debug.xcconfig */,
+				EBFE65ADAD155AD77D2D0B45 /* Pods-Guess Artikel.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2545E0FE1F3471CB004CA24B = {
+			isa = PBXGroup;
+			children = (
+				25AA76671FB99E1E00469F68 /* GoogleService-Info.plist */,
+				2545E1091F3471CB004CA24B /* Guess Artikel */,
+				2545E1081F3471CB004CA24B /* Products */,
+				2546CC831F348AF70049B282 /* Frameworks */,
+				1CBDB66833C5E93CE2AA6C9A /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		2545E1081F3471CB004CA24B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2545E1071F3471CB004CA24B /* Guess Artikel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2545E1091F3471CB004CA24B /* Guess Artikel */ = {
+			isa = PBXGroup;
+			children = (
+				25AA76691FB99E2600469F68 /* GoogleService-Info.plist */,
+				2546CC7D1F3482140049B282 /* AppDelegate.swift */,
+				2545E10A1F3471CB004CA24B /* Guess.swift */,
+				25868D3C1F49DF83008EA688 /* article.txt */,
+				2545E10C1F3471CB004CA24B /* ViewController.swift */,
+				2545E10E1F3471CB004CA24B /* Main.storyboard */,
+				2546CC801F3489910049B282 /* gewicht.txt */,
+				2545E11C1F34721C004CA24B /* support */,
+			);
+			path = "Guess Artikel";
+			sourceTree = "<group>";
+		};
+		2545E11C1F34721C004CA24B /* support */ = {
+			isa = PBXGroup;
+			children = (
+				2545E1111F3471CB004CA24B /* Assets.xcassets */,
+				2545E1131F3471CB004CA24B /* LaunchScreen.storyboard */,
+				2545E1161F3471CB004CA24B /* Info.plist */,
+			);
+			name = support;
+			sourceTree = "<group>";
+		};
+		2546CC831F348AF70049B282 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1892E5C1283F285A65BC5183 /* Pods_Guess_Artikel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2545E1061F3471CB004CA24B /* Guess Artikel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2545E1191F3471CB004CA24B /* Build configuration list for PBXNativeTarget "Guess Artikel" */;
+			buildPhases = (
+				F62B0167F3312EE1A1B97330 /* [CP] Check Pods Manifest.lock */,
+				2545E1031F3471CB004CA24B /* Sources */,
+				2545E1041F3471CB004CA24B /* Frameworks */,
+				2545E1051F3471CB004CA24B /* Resources */,
+				D27D43FA1253095D517E1028 /* [CP] Embed Pods Frameworks */,
+				655FDB8F9FE2E845F05E5BD3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Guess Artikel";
+			productName = "Guess Artikel";
+			productReference = 2545E1071F3471CB004CA24B /* Guess Artikel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2545E0FF1F3471CB004CA24B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Ege Özsoy";
+				TargetAttributes = {
+					2545E1061F3471CB004CA24B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = MHXL7JJPLK;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 2545E1021F3471CB004CA24B /* Build configuration list for PBXProject "Guess Artikel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2545E0FE1F3471CB004CA24B;
+			productRefGroup = 2545E1081F3471CB004CA24B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2545E1061F3471CB004CA24B /* Guess Artikel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2545E1051F3471CB004CA24B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2545E1151F3471CB004CA24B /* LaunchScreen.storyboard in Resources */,
+				2546CC821F3489910049B282 /* gewicht.txt in Resources */,
+				25868D3D1F49DF83008EA688 /* article.txt in Resources */,
+				2545E1121F3471CB004CA24B /* Assets.xcassets in Resources */,
+				2545E1101F3471CB004CA24B /* Main.storyboard in Resources */,
+				25AA76681FB99E1E00469F68 /* GoogleService-Info.plist in Resources */,
+				25AA766A1FB99E2600469F68 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		655FDB8F9FE2E845F05E5BD3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Guess Artikel/Pods-Guess Artikel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D27D43FA1253095D517E1028 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Guess Artikel/Pods-Guess Artikel-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Guess Artikel/Pods-Guess Artikel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F62B0167F3312EE1A1B97330 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Guess Artikel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2545E1031F3471CB004CA24B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2546CC7E1F3482140049B282 /* AppDelegate.swift in Sources */,
+				2545E10D1F3471CB004CA24B /* ViewController.swift in Sources */,
+				2545E10B1F3471CB004CA24B /* Guess.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2545E10E1F3471CB004CA24B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2545E10F1F3471CB004CA24B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2545E1131F3471CB004CA24B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2545E1141F3471CB004CA24B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2545E1171F3471CB004CA24B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2545E1181F3471CB004CA24B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2545E11A1F3471CB004CA24B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF29A9FC628700D620EC4880 /* Pods-Guess Artikel.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MHXL7JJPLK;
+				INFOPLIST_FILE = "Guess Artikel/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ege.ozsoy-tum.de.Guess-Artikel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2545E11B1F3471CB004CA24B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBFE65ADAD155AD77D2D0B45 /* Pods-Guess Artikel.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MHXL7JJPLK;
+				INFOPLIST_FILE = "Guess Artikel/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ege.ozsoy-tum.de.Guess-Artikel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2545E1021F3471CB004CA24B /* Build configuration list for PBXProject "Guess Artikel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2545E1171F3471CB004CA24B /* Debug */,
+				2545E1181F3471CB004CA24B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2545E1191F3471CB004CA24B /* Build configuration list for PBXNativeTarget "Guess Artikel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2545E11A1F3471CB004CA24B /* Debug */,
+				2545E11B1F3471CB004CA24B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2545E0FF1F3471CB004CA24B /* Project object */;
+}
