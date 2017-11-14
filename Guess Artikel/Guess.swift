@@ -111,8 +111,6 @@ var das = [String]();
             }
             try text.write(to: gewichtURL(), atomically: true, encoding: String.Encoding.ascii)
         }
-        
-        gr
 //        old method using text
 //        func learnArtikel() -> ([String] , [String] , [String]){
 //            print("learngin artikel")
